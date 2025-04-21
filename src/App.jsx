@@ -10,6 +10,7 @@ import { MobileMenu } from './components/sections/MobileMenu'
 import { Home } from './components/sections/Home'
 import { About } from './components/sections/About'
 import { Projects } from './components/sections/Project'
+import { Contact } from './components/sections/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
     <Home />
     <About />
     <Projects />
+    <Contact />
     </div>
     {/* <Demo /> */}
     </>
